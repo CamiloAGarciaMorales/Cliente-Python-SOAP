@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Principal</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAGREGAR">
+    <property name="title">
+     <string>Agregar</string>
+    </property>
+    <addaction name="actionAgregar_Jugador"/>
+    <addaction name="actionAgregar_Personaje"/>
+    <addaction name="actionAgregar_Especie"/>
+   </widget>
+   <widget class="QMenu" name="menuEliminar">
+    <property name="title">
+     <string>Eliminar</string>
+    </property>
+    <addaction name="actionEliminar_Jugador"/>
+    <addaction name="actionEliminar_Personaje"/>
+    <addaction name="actionEliminar_Especie"/>
+   </widget>
+   <widget class="QMenu" name="menuActualizar">
+    <property name="title">
+     <string>Actualizar</string>
+    </property>
+    <addaction name="actionActualizar_Jugador"/>
+    <addaction name="actionActualizar_Personaje"/>
+    <addaction name="actionActualizar_Especie"/>
+   </widget>
+   <widget class="QMenu" name="menuListar">
+    <property name="title">
+     <string>Listar</string>
+    </property>
+    <addaction name="actionListar_Jugadores"/>
+    <addaction name="actionListar_Personajes"/>
+    <addaction name="actionGraficar"/>
+   </widget>
+   <addaction name="menuAGREGAR"/>
+   <addaction name="menuEliminar"/>
+   <addaction name="menuActualizar"/>
+   <addaction name="menuListar"/>
+  </widget>
+  <action name="actionAgregar_Jugador">
+   <property name="text">
+    <string>Agregar Jugador</string>
+   </property>
+  </action>
+  <action name="actionAgregar_Personaje">
+   <property name="text">
+    <string>Agregar Personaje</string>
+   </property>
+  </action>
+  <action name="actionAgregar_Especie">
+   <property name="text">
+    <string>Agregar Especie</string>
+   </property>
+  </action>
+  <action name="actionEliminar_Jugador">
+   <property name="text">
+    <string>Eliminar Jugador</string>
+   </property>
+  </action>
+  <action name="actionEliminar_Personaje">
+   <property name="text">
+    <string>Eliminar Personaje</string>
+   </property>
+  </action>
+  <action name="actionEliminar_Especie">
+   <property name="text">
+    <string>Eliminar Especie</string>
+   </property>
+  </action>
+  <action name="actionActualizar_Jugador">
+   <property name="text">
+    <string>Actualizar Jugador</string>
+   </property>
+  </action>
+  <action name="actionActualizar_Personaje">
+   <property name="text">
+    <string>Actualizar Personaje</string>
+   </property>
+  </action>
+  <action name="actionActualizar_Especie">
+   <property name="text">
+    <string>Actualizar Especie</string>
+   </property>
+  </action>
+  <action name="actionListar_Jugadores">
+   <property name="text">
+    <string>Listar Jugadores</string>
+   </property>
+  </action>
+  <action name="actionListar_Personajes">
+   <property name="text">
+    <string>Listar Personajes</string>
+   </property>
+  </action>
+  <action name="actionGraficar">
+   <property name="text">
+    <string>Graficar</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
